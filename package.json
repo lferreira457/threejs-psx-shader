@@ -1,0 +1,31 @@
+{
+  "name": "threejs-psx-shader",
+  "version": "1.0.0",
+  "description": "PS1-style rendering for Three.js: low-res rendering, dithering, color crush, fog, CRT, vertex snapping and affine texture warping.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "three",
+    "threejs",
+    "psx",
+    "ps1",
+    "retro",
+    "shader",
+    "postprocessing",
+    "dithering",
+    "crt"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "three": ">=0.160.0"
+  }
+}
